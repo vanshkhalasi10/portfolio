@@ -7,7 +7,7 @@ const Projects = () => {
     { name: "Todo App", link: "#" }
   ];
   return (
-    <section id="projects" className="bg-slate-950 py-20 text-gray-100">
+    <section id="projects" className="bg-slate-950  py-16 px-6 sm:px-10 md:px-20 text-gray-100">
       <h2 className="text-center text-4xl font-bold text-cyan-400 mb-10">Projects</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
         {projects.map((p, i) => (

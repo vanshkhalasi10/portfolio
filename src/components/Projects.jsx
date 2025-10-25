@@ -2,9 +2,9 @@ import React from 'react'
 
 const Projects = () => {
   const projects = [
-    { name: "Travel Website", link: "#", img: "project1.png" },
-    { name: "Portfolio", link: "#", img: "project2.png" },
-    { name: "Todo App", link: "#" }
+    { name: "Travel Website", link: "https://travel-website-one-dusky.vercel.app/", img: "project1.png" },
+    { name: "Portfolio", link: "https://portfolio-seven-indol-55.vercel.app/", img: "project2.png" },
+    { name: "Todo App", link: "https://task-product-dashboard-wkt8.vercel.app/" }
   ];
   return (
     <section id="projects" className="bg-slate-950  py-16 px-6 sm:px-10 md:px-20 text-gray-100">

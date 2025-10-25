@@ -1,10 +1,14 @@
 import React from 'react'
+import travelImg from '../assets/projectImages/airplane.png'
+import portfolioImg from '../assets/projectImages/portfolio.png';
+import todoImg from '../assets/projectImages/list.png';
+
 
 const Projects = () => {
   const projects = [
-    { name: "Travel Website", link: "https://travel-website-one-dusky.vercel.app/", img: "project1.png" },
-    { name: "Portfolio", link: "https://portfolio-seven-indol-55.vercel.app/", img: "project2.png" },
-    { name: "Todo App", link: "https://task-product-dashboard-wkt8.vercel.app/" }
+    { name: "Travel Website", link: "https://travel-website-one-dusky.vercel.app/", img: travelImg },
+    { name: "Portfolio", link: "https://portfolio-seven-indol-55.vercel.app/", img: portfolioImg },
+    { name: "Todo App", link: "https://task-product-dashboard-wkt8.vercel.app/",img: todoImg }
   ];
   return (
     <section id="projects" className="bg-slate-950  py-16 px-6 sm:px-10 md:px-20 text-gray-100">
